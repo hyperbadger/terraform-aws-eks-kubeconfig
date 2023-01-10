@@ -1,6 +1,6 @@
 # AWS EKS Kubeconfig Terraform module
 
-Terraform module which returns kubeconfig based on Ephemeral token for the cluster in question using cluster_id as an input.
+Terraform module which returns kubeconfig based on Ephemeral token for the cluster in question using cluster_name as an input.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -31,7 +31,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cluster_id"></a> [cluster\_id](#input\_cluster\_id) | Cluster ID of the AWS EKS cluster for which kubeconfig needs to be generated | `string` | n/a | yes |
+| <a name="input_cluster_id"></a> [cluster\_name](#input\_cluster\_name) | Cluster name of the AWS EKS cluster for which kubeconfig needs to be generated | `string` | n/a | yes |
 
 ## Outputs
 

@@ -1,9 +1,9 @@
 data "aws_eks_cluster" "this" {
-  name = var.cluster_id
+  name = var.cluster_name
 }
 
 data "aws_eks_cluster_auth" "ephemeral" {
-  name = var.cluster_id
+  name = var.cluster_name
 }
 
 locals {

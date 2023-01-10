@@ -1,4 +1,4 @@
-variable "cluster_id" {
+variable "cluster_name" {
   type        = string
-  description = "Cluster ID of the AWS EKS cluster for which kubeconfig needs to be generated"
+  description = "Cluster name of the AWS EKS cluster for which kubeconfig needs to be generated"
 }
